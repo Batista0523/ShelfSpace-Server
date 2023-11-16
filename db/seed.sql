@@ -1,4 +1,4 @@
-\ c books_dev;
+\c books_dev;
 INSERT INTO books (
         title,
         ISBN,
