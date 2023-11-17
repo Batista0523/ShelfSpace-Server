@@ -9,7 +9,7 @@ app.use(express.json());
 app.use("/books", bookController);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Shelf Space");
+  res.send("Welcome to Shelf Space ---> /books to see data");
 });
 
 app.get("*", (req, res) => {
